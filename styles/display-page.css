@@ -1,0 +1,44 @@
+main {
+	padding: 50px;
+	font-size: 0;
+}
+
+.row {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.box {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.top {
+	height: 200px;
+	width: 50%;
+}
+
+.bottom {
+	height: 300px;
+	width: 33.33%;
+}
+
+.top-left {
+	background-color: green;
+}
+
+.top-right {
+	background-color: blue;
+}
+
+.bottom-left {
+	background-color: grey;
+}
+
+.bottom-middle {
+	background-color: black;
+}
+
+.bottom-right {
+	background-color: sandybrown;
+}
