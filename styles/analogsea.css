@@ -1,0 +1,86 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: cornflowerblue;
+}
+
+main {
+	text-align: center;
+}
+
+.logo {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	height: 35px;
+}
+
+.signup-form {
+	width: 400px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 3px;
+	text-align: left;
+}
+
+form h1 {
+	margin-bottom: 30px;
+	margin-top: 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	color: dimgrey;
+}
+
+.form-item {
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-width: 2px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-radius: 3px;
+}
+
+form label {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+button.form-item {
+	background-color: #31C25B;
+	border-color: #31C25B;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+button.form-item:hover {
+	background-color: #26A64B;
+	border-color: #26A64B;
+}
+
+form .forgot-password {
+	margin: 0;
+	text-align: center;
+}
+
+form a {
+	color: grey;
+	font-size: 12px;
+}
+
+.log-in {
+	font-weight: bold;
+	color: white;
+}
+
+.log-in a {
+	color: white;
+}
